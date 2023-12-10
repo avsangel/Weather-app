@@ -3,37 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kenia&family=Macondo&family=Whisper&display=swap"
+      rel="stylesheet"
+    />
     <title>week 7</title>
   </head>
-  <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Lincoln</h1>
-        <p>
-          Saturday 6:44, Windy
-          <br />
-          Humidity: 66%, Wind 10.50km/h
-        </p>
-      </div>
-      <div>☀️ 40ºF</div>
-    </main>
-    <footer>
-      This project was Coded by
-      <a href="https://github.com/avsangel" target="_blank"> Alesia Shope, </a>
-      is open - sourcd on
-      <a href="https://github.com/avsangel?tab=repositories" target="_blank">
-        github</a
-      >
-      and hosted on
-      <a href="https://weeksevenproject.netlify.app/" target="_blank">
-        netilify.</a
-      >
-    </footer>
-  </body>
+  <div class="weather-app">
+    <body>
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Lincoln</h1>
+            <p class="weather-app-details">
+              Saturday 6:44, Windy
+              <br />
+              Humidity: <span class="numbers">66%</span> , Wind
+              <span class="numbers"> 10.50km/h</span>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☀️</div>
+            <div class="weather-app-temperature">40</div>
+            <div class="weather-app-unit">ºF</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was Coded by
+        <a href="https://github.com/avsangel" target="_blank">
+          Alesia Shope,
+        </a>
+        and is open - sourced on
+        <a href="https://github.com/avsangel?tab=repositories" target="_blank">
+          github</a
+        >
+        and hosted on
+        <a href="https://weeksevenproject.netlify.app/" target="_blank">
+          netilify.</a
+        >
+      </footer>
+    </body>
+  </div>
 </html>
