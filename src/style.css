@@ -79,3 +79,17 @@ footer {
 a {
   color: teal;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: blue;
+}
+.weather-forecast-day {
+  font-size: 16px;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
