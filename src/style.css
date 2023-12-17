@@ -80,9 +80,11 @@ a {
   color: teal;
 }
 .weather-forecast {
+  display: flex;
   margin-top: 20px;
-  text-align: center;
   color: blue;
+  text-align: center;
+  justify-content: space-around;
 }
 .weather-forecast-day {
   font-size: 16px;
